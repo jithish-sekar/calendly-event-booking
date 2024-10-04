@@ -88,13 +88,13 @@ export default function Home() {
                 />
               </div>
             </div>
-            {/* <div className="max-md:mt-12 h-full">
+            <div className="max-md:mt-12 h-full">
               <img
                 src="https://readymadeui.com/team-image.webp"
                 alt="banner img"
                 className="w-full h-full object-cover"
               />
-            </div> */}
+            </div>
           </div>
         </div>
       </div>
