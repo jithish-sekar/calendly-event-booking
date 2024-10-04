@@ -58,35 +58,43 @@ export default function Home() {
                 <p className="text-base ml-3">No credit card required!</p>
               </div>
               <div className="mt-10 grid grid-cols-2 md:grid-cols-4 gap-4 items-center">
-                <img
+                <Image
                   src="https://readymadeui.com/google-logo.svg"
+                  width="28"
+                  height="28"
                   className="w-28 mx-auto"
                   alt="google-logo"
                 />
-                <img
+                <Image
+                  width="28"
+                  height="28"
                   src="https://readymadeui.com/facebook-logo.svg"
                   className="w-28 mx-auto"
                   alt="facebook-logo"
                 />
-                <img
+                <Image
+                  width="28"
+                  height="28"
                   src="https://readymadeui.com/linkedin-logo.svg"
                   className="w-28 mx-auto"
                   alt="linkedin-logo"
                 />
-                <img
+                <Image
+                  width="28"
+                  height="28"
                   src="https://readymadeui.com/pinterest-logo.svg"
                   className="w-28 mx-auto"
                   alt="pinterest-logo"
                 />
               </div>
             </div>
-            <div className="max-md:mt-12 h-full">
+            {/* <div className="max-md:mt-12 h-full">
               <img
                 src="https://readymadeui.com/team-image.webp"
                 alt="banner img"
                 className="w-full h-full object-cover"
               />
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
